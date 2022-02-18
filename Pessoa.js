@@ -75,9 +75,9 @@ class PessoaJuridica extends Pessoa{
                
 	} 
 }
-var pessoa = new Pessoa("Ivisson", "R. Dr. Paulo Alves, 110");
-var pessoaFisica = new PessoaFisica("Audrey", "Rua Nilo Peçanha", 099447838722, "03/04/1982");
-var pessoaJuridica = new PessoaJuridica("Flavio", "rua 2", "001111212121", "0001/46");
+var pessoa = new Pessoa("Ivisson", "R. Dr. Paulo Alves");
+var pessoaFisica = new PessoaFisica("Audrey", "Rua Nilo Peçanha", 12356487944, "01/04/1985");
+var pessoaJuridica = new PessoaJuridica("Empresa", "rua 2", "001111212121/0001-20", "Empresa LTDA");
 console.log("----------------------------")
 console.log(pessoa.imprimir());
 console.log("----------------------------")
